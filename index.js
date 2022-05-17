@@ -15,12 +15,12 @@ questionContainer.addEventListener("click" , () => {
 });
 
 btn1.addEventListener('click' , () => {
-  response.style.visibility = "visible";
+  response.classList.add("show-response");
   response.style.background = "green";
 });
 
 btn2.addEventListener('click' , () => {
-  response.style.visibility = "visible";
+  response.classList.add("show-response");
   response.style.background = "red";
 });
 
